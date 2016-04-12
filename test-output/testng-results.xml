@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="1223" started-at="2016-04-11T06:08:08Z" finished-at="2016-04-11T06:08:09Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="1223" started-at="2016-04-11T06:08:08Z" finished-at="2016-04-11T06:08:09Z">
+      <class name="com.eCommunity.seleniumtest.ChromDriver">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.Integer)[pri:0, instance:com.eCommunity.seleniumtest.ChromDriver@59fa1d9b]" name="init" is-config="true" duration-ms="10729" started-at="2016-04-11T14:07:57Z" finished-at="2016-04-11T14:08:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.0.98:19078/ecommunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.eCommunity.seleniumtest.ChromDriver@59fa1d9b]" name="exit" is-config="true" duration-ms="704" started-at="2016-04-11T14:08:09Z" finished-at="2016-04-11T14:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.eCommunity.seleniumtest.ChromDriver -->
+      <class name="com.eCommunity.seleniumtest.CellFileSearch">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.eCommunity.seleniumtest.CellFileSearch@28d25987]" name="setUp" is-config="true" duration-ms="475" started-at="2016-04-11T14:08:08Z" finished-at="2016-04-11T14:08:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.0.98:19078/ecommunity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCellFileSearch()[pri:0, instance:com.eCommunity.seleniumtest.CellFileSearch@28d25987]" name="testCellFileSearch" duration-ms="714" started-at="2016-04-11T14:08:08Z" finished-at="2016-04-11T14:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCellFileSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eCommunity.seleniumtest.CellFileSearch@28d25987]" name="tearDown" is-config="true" duration-ms="17" started-at="2016-04-11T14:08:09Z" finished-at="2016-04-11T14:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eCommunity.seleniumtest.CellFileSearch -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

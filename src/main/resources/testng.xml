@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+	<parameter name="url"
+		value="http://192.168.0.98:19078/ecommunity" />
+	<parameter name="seconds" value="5" />
+	<test name="test1">
+		<classes>
+			<class name="com.eCommunity.seleniumtest.ChromDriver" />
+			<class name="com.eCommunity.seleniumtest.CellFileSearch" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="url" value="http://192.168.0.98:19078/ecommunity"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.eCommunity.seleniumtest.CellFileSearch">
+        <methods>
+          <include name="setUp"/>
+          <include name="testCellFileSearch"/>
+        </methods>
+      </class> <!-- com.eCommunity.seleniumtest.CellFileSearch -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
