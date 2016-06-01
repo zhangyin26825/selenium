@@ -66,7 +66,7 @@ public class ChromeDemo {
 		  driver.navigate().to("https://reg.163.com/account/accountInfo.jsp");
 		  driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
 		  
-		 String pageSource = driver.getPageSource();
+		 String pageSource = driver. getPageSource();
 		 System.out.println(pageSource); 																									
 		 WebElement findElement = driver.findElement(By.xpath("/html/body/div[3]/div[2]/div[2]/ul[1]/li[2]"));
 		 String content=findElement.getText();
