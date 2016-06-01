@@ -1,6 +1,7 @@
 package com.eCommunity.seleniumtest;
 
 import java.io.File;
+import java.io.Serializable;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -24,6 +25,9 @@ public class ChromDriver {
     @BeforeSuite
     @Parameters({"url","seconds"})
     public  void init(String url,Integer seconds) throws Exception{
+    	
+    	
+    	
         System.setProperty(
                 "webdriver.chrome.driver",
                 "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
